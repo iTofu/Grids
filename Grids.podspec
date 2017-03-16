@@ -4,10 +4,10 @@ Pod::Spec.new do |s|
   s.version      = "0.0.2"
   s.summary      = "🏁 Grid layout, making views equidistant. Base on SnapKit. Support: https://LeoDev.me"
   s.homepage     = "https://github.com/iTofu/Grids"
-  s.screenshots  = "https://raw.githubusercontent.com/iTofu/Grid/master/DemoImages/GirdsDemo.png"
+  s.screenshots  = "https://raw.githubusercontent.com/iTofu/Grids/master/DemoImages/GridsDemo.png"
   s.license      = "MIT"
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/iTofu/Grid.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/iTofu/Grids.git", :tag => s.version }
   s.source_files = "Sources/*.swift"
   s.requires_arc = true
 
