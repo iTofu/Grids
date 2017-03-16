@@ -12,7 +12,7 @@
 
 <p>
 
-<img src="https://raw.githubusercontent.com/iTofu/Grids/master/DemoImages/GirdsDemo.png" alt="Grids" title="Grids" width="320"/>
+<img src="https://raw.githubusercontent.com/iTofu/Grids/master/DemoImages/GridsDemo.png" alt="Grids" title="Grids" width="320"/>
 
 🏁 Grids layout, making views equidistant. Base on [SnapKit](https://github.com/SnapKit/SnapKit). (Waiting [logo](mailto:leodaxia@gmail.com)...)
 
@@ -41,7 +41,7 @@ Welcome to visit my blog：https://LeoDev.me
 
 ## Requirements
 
-* iOS 8.0+ / Mac OS X 10.11+ / tvOS 9.0+
+* iOS 8.0+ / macOS X 10.11+ / tvOS 9.0+
 * Xcode 8.0+
 * Swift 3.0+
 
@@ -80,21 +80,21 @@ If you prefer not to use the aforementioned dependency manager, you can integrat
 * Quick Start:
 
   ```swift
-  let viewX1 = UIView()
-  let viewX2 = UIView()
+  let view1 = UIView()
+  let view2 = UIView()
 
-  self.view.addSubview(viewX1)
-  self.view.addSubview(viewX2)
+  self.view.addSubview(view1)
+  self.view.addSubview(view2)
 
-  viewX1.snp.makeConstraints { (make) in
+  view1.snp.makeConstraints { (make) in
       make.centerY.equalToSuperview()
       make.size.equalTo(CGSize(width: 80.0, height: 80.0))
     
-      make.centerY.equalTo(viewX2)
-      make.size.equalTo(viewX2)
+      make.centerY.equalTo(view2)
+      make.size.equalTo(view2)
   }
 
-  self.view.grids.horizontal(subviews: [viewX1, viewX2])
+  self.view.grids.horizontal(subviews: [view1, view2])
   ```
 
 * Resources:
@@ -107,7 +107,7 @@ If you prefer not to use the aforementioned dependency manager, you can integrat
 
 ### V 0.0.2
 
-* Rename project:
+* Rename and migrate project:
 
   ```
   Grid -> Grids
