@@ -1,0 +1,6 @@
+framework module Pods_GridsDemo {
+  umbrella header "Pods-GridsDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
