@@ -12,7 +12,7 @@
 
 <p>
 
-<img src="https://raw.githubusercontent.com/iTofu/Grids/master/DemoImages/GridsDemo.png" alt="Grids" title="Grids" width="320"/>
+<img src="https://raw.githubusercontent.com/iTofu/Grids/master/DemoImages/GridsDemo01.png" alt="Grids" title="Grids" width="424"/>
 
 🏁 Grids layout, making views equidistant. Base on [SnapKit](https://github.com/SnapKit/SnapKit). (Waiting [logo](mailto:leodaxia@gmail.com)...)
 
@@ -96,6 +96,10 @@ If you prefer not to use the aforementioned dependency manager, you can integrat
 
   self.view.grids.horizontal(subviews: [view1, view2])
   ```
+  
+  Preview:
+
+  <img src="https://raw.githubusercontent.com/iTofu/Grids/master/DemoImages/GridsDemo02.png" alt="Grids" title="Grids" width="424"/>
 
 * Resources:
 
