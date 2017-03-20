@@ -127,7 +127,7 @@ If you prefer not to use the aforementioned dependency manager, you can integrat
 
 * If you have any question, just [commit a issue](https://github.com/iTofu/Grids/issues/new).
 
-* Mail: `echo bGVvZGF4aWFAZ21haWwuY29tCg== | base64 -D` or `echo ZGV2dGlwQDE2My5jb20K | base64 -D`
+* Mail: `echo bGVvZGF4aWFAZ21haWwuY29tCg== | base64 -D` || `echo ZGV2dGlwQDE2My5jb20K | base64 -D`
 
 * Blog: https://LeoDev.me
 
