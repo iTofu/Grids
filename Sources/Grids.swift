@@ -4,9 +4,7 @@
 //
 //  Created by Leo on 15/03/2017.
 //
-//  Copyright © 2017 Leo <leodaxia@gmail.com>
-//
-//  Copyright (c) 2017 Leo
+//  Copyright (c) 2017 Leo <leodaxia@gmail.com>
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
