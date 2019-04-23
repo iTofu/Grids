@@ -1,18 +1,18 @@
 {
   "name": "Grids",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "🏁 Grid layout, making views equidistant. Base on SnapKit. Support: https://LeoDev.me",
-  "homepage": "https://github.com/iTofu/Grid",
-  "screenshots": "https://raw.githubusercontent.com/iTofu/Grid/master/DemoImages/GirdDemo.png",
+  "homepage": "https://github.com/iTofu/Grids",
+  "screenshots": "https://raw.githubusercontent.com/iTofu/Grids/master/DemoImages/GridsDemo.png",
   "license": "MIT",
   "platforms": {
-    "ios": "8.0",
+    "ios": "9.0",
     "tvos": "9.0",
     "osx": "10.11"
   },
   "source": {
-    "git": "https://github.com/iTofu/Grid.git",
-    "tag": "0.0.1"
+    "git": "https://github.com/iTofu/Grids.git",
+    "tag": "0.0.2"
   },
   "source_files": "Sources/*.swift",
   "requires_arc": true,
@@ -22,10 +22,10 @@
   "social_media_url": "https://LeoDev.me",
   "dependencies": {
     "SnapKit": [
-      "~> 3.2.0"
+      "~> 4.0.0"
     ]
   },
   "pod_target_xcconfig": {
-    "SWIFT_VERSION": "3.0"
+    "SWIFT_VERSION": "4.2"
   }
 }
